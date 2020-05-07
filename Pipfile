@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+mypy = "*"
+
+[packages]
+environs = "==7.3.1"
+Django = "==3.0.5"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+mypy = "*"
+
+[requires]
+python_version = "3.7"
